@@ -1,0 +1,19 @@
+digraph "main.presentation.controllers.CtrlPresentation.logOut"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="main.presentation.controllers.\lCtrlPresentation.logOut",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.presentation.views.\lManageProfileView.logOutPopUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ManageProfileView.html#a0e8c2033fb75820fb11aeac43fd7da59",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.presentation.views.\lManageProfileView.buttons",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ManageProfileView.html#aa3f1f29e375e377fd8560346a848b21a",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main.presentation.views.\lManageProfileView.viewSetUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ManageProfileView.html#adab09baf92daf3cae76e9549912ab02b",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main.presentation.views.\lManageProfileView.initialise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ManageProfileView.html#af5f39b149a33e462f9c292ffa3b8834f",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main.presentation.views.\lManageProfileView.ManageProfileView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ManageProfileView.html#a637c3bc4627369bf65d67c9af227e2bb",tooltip=" "];
+}

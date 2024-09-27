@@ -1,0 +1,27 @@
+/* custom_stylesheet.css */
+body {
+    background-color: #bde0fa; /* Light yellow background */
+    color: rgb(11, 0, 0); /* White text */
+}
+
+header {
+    text-align: center;
+    font-size: 2em; /* Larger font size for title */
+    font-weight: bold; /* Bold text */
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 3em; /* Even larger font size for the main title */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
+}
+
+header h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 2em; /* Large font size for the subtitle */
+    color: white; /* White text */
+    font-weight: bold; /* Bold text */
+}

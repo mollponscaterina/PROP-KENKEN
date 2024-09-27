@@ -1,0 +1,11 @@
+digraph "main.presentation.controllers.CtrlPresentation.CtrlPresentation"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="main.presentation.controllers.\lCtrlPresentation.CtrlPresentation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.presentation.controllers.\lCtrlPresentation.getInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1controllers_1_1CtrlPresentation.html#af2a5f346a401d3789448cb595eac6cc7",tooltip=" "];
+}

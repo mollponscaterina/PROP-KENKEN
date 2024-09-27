@@ -1,0 +1,14 @@
+digraph "main.presentation.views.ManageProfileView"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{main.presentation.views.\lManageProfileView\n||+ ManageProfileView()\l- initialise()\l- viewSetUp()\l- titleStyle()\l- profileLabel()\l- buttons()\l- closePopUp()\l- deleteProfilePopUp()\l- logOutPopUp()\l- removeLastGamePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{JFrame\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classJFrame.html",tooltip=" "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -username" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{String\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -cc" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Component\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

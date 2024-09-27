@@ -1,0 +1,33 @@
+digraph "main.presentation.views.ProfileView.initialise"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main.presentation.views.\lProfileView.initialise",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.presentation.views.\lProfileView.closePopUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ProfileView.html#a20639e266aa51ba2f163f85b57f55f66",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.presentation.views.\lProfileView.viewSetUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ProfileView.html#a882c1adcf545ed39961b825c6e40dd09",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main.presentation.views.\lProfileView.buttons",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ProfileView.html#a20b598de2adee0f28ade65e6db995662",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main.presentation.controllers.\lCtrlPresentation.createProfileView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1controllers_1_1CtrlPresentation.html#a0b1a5ecc711ffc22e296a4381b971aec",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main.presentation.views.\lProfileView.logInPopUp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ProfileView.html#a5b3f39b4f2ab3cbd0c076a453cbd8be0",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="main.presentation.controllers.\lCtrlPresentation.initialView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1controllers_1_1CtrlPresentation.html#aef492fdfe0273b39242801f312832c0b",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="main.presentation.controllers.\lCtrlPresentation.logIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1controllers_1_1CtrlPresentation.html#a026604238a1b72aad798c64f08e9333e",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main.domain.controllers.\lCtrlDomain.logIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1controllers_1_1CtrlDomain.html#a57f4c3ee85e624b3694d390332196771",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="main.persistence.controllers.\lCtrlPersistence.loadDataPlayers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1persistence_1_1controllers_1_1CtrlPersistence.html#aaf85a56ec8a8ea26bba36f0e4e63dce8",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="main.persistence.classes.\lPlayerManagement.loadData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1persistence_1_1classes_1_1PlayerManagement.html#ad7a43397dc2f47a1626587aded38e288",tooltip=" "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="main.domain.controllers.\lCtrlPlayer.setPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1controllers_1_1CtrlPlayer.html#a04b30f85b7872606233e66b69fba3370",tooltip=" "];
+  Node3 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="main.presentation.views.\lProfileView.titleStyle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ProfileView.html#a1bf0aa5d7c33ed18d7522794e8e1a71d",tooltip=" "];
+}

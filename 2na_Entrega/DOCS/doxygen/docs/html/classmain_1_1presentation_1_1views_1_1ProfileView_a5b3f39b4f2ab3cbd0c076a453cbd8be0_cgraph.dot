@@ -1,0 +1,21 @@
+digraph "main.presentation.views.ProfileView.logInPopUp"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main.presentation.views.\lProfileView.logInPopUp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.presentation.controllers.\lCtrlPresentation.initialView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1controllers_1_1CtrlPresentation.html#aef492fdfe0273b39242801f312832c0b",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.presentation.controllers.\lCtrlPresentation.logIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1controllers_1_1CtrlPresentation.html#a026604238a1b72aad798c64f08e9333e",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main.domain.controllers.\lCtrlDomain.logIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1controllers_1_1CtrlDomain.html#a57f4c3ee85e624b3694d390332196771",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main.persistence.controllers.\lCtrlPersistence.loadDataPlayers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1persistence_1_1controllers_1_1CtrlPersistence.html#aaf85a56ec8a8ea26bba36f0e4e63dce8",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main.persistence.classes.\lPlayerManagement.loadData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1persistence_1_1classes_1_1PlayerManagement.html#ad7a43397dc2f47a1626587aded38e288",tooltip=" "];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="main.domain.controllers.\lCtrlPlayer.setPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1controllers_1_1CtrlPlayer.html#a04b30f85b7872606233e66b69fba3370",tooltip=" "];
+}

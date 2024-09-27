@@ -1,0 +1,13 @@
+digraph "main.domain.controllers.CtrlDomain.getMatAct"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main.domain.controllers.\lCtrlDomain.getMatAct",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.domain.controllers.\lCtrlPlayer.getMatAct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1controllers_1_1CtrlPlayer.html#a9a82c6dd846e2aa32bd4eaee33e72978",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.domain.classes.Player.get\lMatAct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Player.html#a428e2b52b7a233974dd5be827b0799fd",tooltip=" "];
+}

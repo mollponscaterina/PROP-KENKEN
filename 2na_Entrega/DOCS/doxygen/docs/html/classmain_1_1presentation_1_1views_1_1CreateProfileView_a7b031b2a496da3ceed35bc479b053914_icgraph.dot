@@ -1,0 +1,13 @@
+digraph "main.presentation.views.CreateProfileView.viewSetUp"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="main.presentation.views.\lCreateProfileView.viewSetUp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.presentation.views.\lCreateProfileView.initialise",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1CreateProfileView.html#a1f83ab8f7968126091bfa7a3689e35ec",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.presentation.views.\lCreateProfileView.CreateProfileView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1CreateProfileView.html#ac5e7970d390c02c8dbc23e931a1ccae8",tooltip=" "];
+}

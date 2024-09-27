@@ -1,0 +1,19 @@
+/**
+ * @mainpage KenKen Project
+ *
+ * # KenKen Project
+ *
+ * This project is an implementation of the KenKen game. It includes various classes to handle the game logic, board generation, and user and game management.
+ *
+ * ## Authors
+ * ## Authors
+ * - Marcos Roca
+ * - Javier Sanchez
+ * - David Vendrell
+ * - Caterina Moll
+ *
+ * ## Description
+ * The KenKen game is a logic puzzle that consists of a grid with mathematical operations. The objective is to fill the grid with numbers that satisfy the given operations.
+ *
+ * We hope you enjoy this project!
+ */

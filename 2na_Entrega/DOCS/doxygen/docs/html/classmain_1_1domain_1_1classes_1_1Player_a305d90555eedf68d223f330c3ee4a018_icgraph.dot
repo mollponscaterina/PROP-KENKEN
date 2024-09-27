@@ -1,0 +1,15 @@
+digraph "main.domain.classes.Player.setPassword"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="main.domain.classes.Player.set\lPassword",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="test.GameTest.init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtest_1_1GameTest.html#a94e9f1ae794b4df6bf29eec19d01f4a5",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="test.PlayerTest.testCorrect\lPassword",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtest_1_1PlayerTest.html#a9a110f54bb5ee7b07d0de2587dac296c",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="test.PlayerTest.testLogin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtest_1_1PlayerTest.html#af4a694000a846934c537c2848585d791",tooltip=" "];
+}

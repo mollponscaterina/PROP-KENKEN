@@ -1,0 +1,15 @@
+digraph "test.PlayerTest.testAddPlayer"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="test.PlayerTest.testAddPlayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.domain.classes.Player.add\lPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Player.html#a2402e20579aebc643007a3718c11b208",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.domain.classes.Ranking.add\lPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Ranking.html#a6e5192a656d7f64fb1c197d988f4289c",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main.domain.classes.Ranking.has\lPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Ranking.html#afe3ffc7208220925ed044a850e9bd96b",tooltip=" "];
+}

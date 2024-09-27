@@ -1,0 +1,38 @@
+digraph "main.domain.classes.Generator.generateKenken"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main.domain.classes.Generator.generate\lKenken",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.domain.classes.Generator.generate\lBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#a7cd8518db1d51f04f266e9d0acbcad79",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.domain.classes.Generator.fill\lBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#ab10cb17e55f2b685338e45abab8666bd",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main.domain.classes.Generator.complete\lBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#acf0175945e44217aae57e8c620922e56",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main.domain.classes.Generator.modify\lBoolean",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#a60253f625cf677c55fba4d4305946c72",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main.domain.classes.Generator.random\lSizeStart",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#a56112239f124fc588aa0ff3d2f868d72",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="main.domain.classes.Generator.generate\lRegions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#aab45d652ae5368183ad4a8089ce4eca6",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="main.domain.classes.Generator.add\lDivisionInRegion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#a9bed63d52ccc46ef654e4ffd9dd4ebbc",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main.domain.classes.utils.\lUtils.isDivion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1utils_1_1Utils.html#a2b5c75289e45e61e6fb4385e6c07da80",tooltip=" "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="main.domain.classes.utils.\lUtils.validCells",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1utils_1_1Utils.html#ad29ef71adf5efc1f08b59dd87248e151",tooltip=" "];
+  Node7 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="main.domain.classes.Generator.calc\lOperation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html#a1cff8029ef5b3b94e35437dcb8ae39e5",tooltip=" "];
+  Node7 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="main.domain.classes.Cell.getI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Cell.html#a0648b98b65cf154a898939b965e69606",tooltip=" "];
+  Node7 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="main.domain.classes.Cell.getJ",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Cell.html#a2f0d5bb53e40dfcd195e32b6a1faebf3",tooltip=" "];
+  Node7 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="main.domain.classes.utils.\lUtils.parseToString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1utils_1_1Utils.html#a837869b3fde4010188dc8f8818233ae2",tooltip=" "];
+  Node1 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="main.domain.classes.utils.\lUtils.printBoard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1utils_1_1Utils.html#a5a188e41d6fdb615e907c18edd9fcbe1",tooltip=" "];
+}

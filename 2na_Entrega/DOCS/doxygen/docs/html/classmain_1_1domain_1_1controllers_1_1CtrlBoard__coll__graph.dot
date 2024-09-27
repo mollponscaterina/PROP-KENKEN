@@ -1,0 +1,33 @@
+digraph "main.domain.controllers.CtrlBoard"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{main.domain.controllers.\lCtrlBoard\n||+ createBoard()\l+ readFile()\l+ getBoard()\l+ generateKenken()\l+ getInstance()\l- CtrlBoard()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" ~board" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{main.domain.classes.Board\n||+ Board()\l+ Board()\l+ Board()\l+ createBoard()\l+ readFile()\l+ storeKenken()\l+ getRandomKenken()\l+ getHint()\l+ getSolution()\l+ validate()\land 20 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Board.html",tooltip=" "];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -id" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{String\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -library" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{main.domain.classes.Library\n||+ Library()\l+ createKenken()\l+ deleteKenken()\l+ existsKenkens()\l+ getRandomKenken()\l+ newformat()\l+ readKenkens()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Library.html",tooltip=" "];
+  Node5 -> Node4 [color="grey25",fontsize="10",style="solid",label=" -Kenkens" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{HashMap\< Integer, main.domain.classes.\lBoard \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +infoKenken\n+difficulty\n+size\n+region" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{int\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -operands" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{Boolean[]\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node2 [color="grey25",fontsize="10",style="solid",label=" -algorithm" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{main.domain.classes.Algorithm\n||+ Algorithm()\l+ validate()\l+ validateFromGame()\l+ validateKenken()\l+ getKenkenSol()\l+ generateKenken()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Algorithm.html",tooltip=" "];
+  Node9 -> Node8 [color="grey25",fontsize="10",style="solid",label=" -validator" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{main.domain.classes.Validator\n||+ Validator()\l+ backtrackValidation()\l+ Validation()\l+ validateKenken()\l+ readFile()\l- backtrackValidationSUM()\l- backtrackValidationMULT()\l- backtrackValidationREST()\l- backtrackValidationDIV()\l- backtrackValidationSUMOFSQUARES()\l- backtrackValidationMOD()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Validator.html",tooltip=" "];
+  Node10 -> Node9 [color="grey25",fontsize="10",style="solid",label=" ~operators" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{List\< main.domain.classes.\lValidator.Operator \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +kenken" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 -> Node8 [color="grey25",fontsize="10",style="solid",label=" -generator" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{main.domain.classes.Generator\n||+ Generator()\l+ generate()\l+ validate()\l+ calcOperation()\l+ addDivisionInRegion()\l+ generateRegions()\l+ generateBoard()\l+ checkValidation()\l+ generateKenken()\l+ modifyBoolean()\l- completeBoard()\l- randomSizeStart()\l- fillBoard()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Generator.html",tooltip=" "];
+  Node6 -> Node11 [color="grey25",fontsize="10",style="solid",label=" -size" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 -> Node11 [color="grey25",fontsize="10",style="solid",label=" ~operators" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{List\< main.domain.classes.\lGenerator.Operator \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -singletonObject" ,arrowhead="odiamond",fontname="Helvetica"];
+}

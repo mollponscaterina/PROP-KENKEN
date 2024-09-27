@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['data_67',['data',['../classmain_1_1persistence_1_1classes_1_1LibraryManagement.html#ad461c3118620efc4881dd86b57283e5d',1,'main::persistence::classes::LibraryManagement']]],
+  ['deletegame_68',['deleteGame',['../classmain_1_1domain_1_1controllers_1_1CtrlDomain.html#aa220cdc85b5c44adf47829ba5d076b9d',1,'main::domain::controllers::CtrlDomain']]],
+  ['deletekenken_69',['deleteKenken',['../classmain_1_1domain_1_1classes_1_1Library.html#ac03f286cbc27c06069b12494ea26b96b',1,'main::domain::classes::Library']]],
+  ['deleteplayer_70',['deletePlayer',['../classmain_1_1domain_1_1controllers_1_1CtrlDomain.html#a4721205aa77ecbdc2a2055ca87e5e6fe',1,'main.domain.controllers.CtrlDomain.deletePlayer()'],['../classmain_1_1presentation_1_1controllers_1_1CtrlPresentation.html#a69cda3ce27a1c0ebdabfc50707541445',1,'main.presentation.controllers.CtrlPresentation.deletePlayer()']]],
+  ['deleteprofilepopup_71',['deleteProfilePopUp',['../classmain_1_1presentation_1_1views_1_1ManageProfileView.html#a1d0ed0a97dae671eae70053f47e41611',1,'main::presentation::views::ManageProfileView']]],
+  ['difficulty_72',['difficulty',['../classmain_1_1domain_1_1classes_1_1Board.html#af01279c0bd1ecf6154cb65dce7cca0d6',1,'main.domain.classes.Board.difficulty()'],['../classmain_1_1presentation_1_1views_1_1CreateKenkenView.html#aa7186773d1b1f35c94f249de7ae2e376',1,'main.presentation.views.CreateKenkenView.difficulty()']]],
+  ['divide_73',['DIVIDE',['../enummain_1_1domain_1_1classes_1_1Generator_1_1Operator.html#a4f979f1e04c32df9d763030df106a51e',1,'main.domain.classes.Generator.Operator.DIVIDE()'],['../enummain_1_1domain_1_1classes_1_1Validator_1_1Operator.html#ac624ebc677e4d90f7256071e0ce59b63',1,'main.domain.classes.Validator.Operator.DIVIDE()']]],
+  ['drivergame_74',['DriverGame',['../classdrivers_1_1DriverGame.html',1,'drivers.DriverGame'],['../classdrivers_1_1DriverGame.html#aed0c8e38b65a94d5a8775c2f8d84f57a',1,'drivers.DriverGame.DriverGame()']]],
+  ['drivergame_2ejava_75',['DriverGame.java',['../DriverGame_8java.html',1,'']]],
+  ['driverpersistence_76',['DriverPersistence',['../classdrivers_1_1DriverPersistence.html',1,'drivers.DriverPersistence'],['../classdrivers_1_1DriverPersistence.html#af40948a9b3ed2ac33734ecfa97194784',1,'drivers.DriverPersistence.DriverPersistence()']]],
+  ['driverpersistence_2ejava_77',['DriverPersistence.java',['../DriverPersistence_8java.html',1,'']]],
+  ['driverplayer_78',['DriverPlayer',['../classdrivers_1_1DriverPlayer.html',1,'drivers.DriverPlayer'],['../classdrivers_1_1DriverPlayer.html#ae2bd09fec6bca94c0c19fb3a34ed8f9e',1,'drivers.DriverPlayer.driverPlayer()'],['../classdrivers_1_1DriverPlayer.html#a0f590607b1e19af3ffa83c9d715c7f62',1,'drivers.DriverPlayer.DriverPlayer()']]],
+  ['driverplayer_2ejava_79',['DriverPlayer.java',['../DriverPlayer_8java.html',1,'']]],
+  ['drivers_80',['drivers',['../namespacedrivers.html',1,'']]],
+  ['directory_20classes_81',['Directory classes',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_domain_classes_README.html',1,'']]],
+  ['directory_20controllers_82',['Directory controllers',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_domain_controllers_README.html',1,'']]],
+  ['directory_20domain_83',['Directory domain',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_domain_README.html',1,'']]],
+  ['directory_20classes_84',['Directory classes',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_persistence_classes_README.html',1,'']]],
+  ['directory_20classes_85',['Directory classes',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_persistence_controllers_README.html',1,'']]],
+  ['directory_20domain_86',['Directory domain',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_persistence_README.html',1,'']]],
+  ['directory_20controllers_87',['Directory controllers',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_presentation_controllers_README.html',1,'']]],
+  ['directory_20presentation_88',['Directory presentation',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_presentation_README.html',1,'']]],
+  ['directory_20views_89',['Directory views',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_presentation_views_README.html',1,'']]],
+  ['directory_20domain_90',['Directory domain',['../md__home_mollponscaterina_subgrup-prop43_81_FONTS_src_main_README.html',1,'']]]
+];

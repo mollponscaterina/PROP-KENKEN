@@ -1,0 +1,26 @@
+digraph "JFrame"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{JFrame\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{main.presentation.views.\lCreateKenkenView\n|- username\l- cc\l- title\l- size\l- difficulty\l- selectedOperators\l|+ CreateKenkenView()\l- initialise()\l- viewSetUp()\l- titleStyle()\l- addSizeSelection()\l- addDifficultySelection()\l- addOperatorSelection()\l- addActionButtons()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1CreateKenkenView.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{main.presentation.views.\lCreateProfileView\n|~ cc\l|+ CreateProfileView()\l- initialise()\l- viewSetUp()\l- backButton()\l- createProfileButton()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1CreateProfileView.html",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{main.presentation.views.\lGameView\n|- username\l- cc\l- title\l|+ GameView()\l- initialise()\l- viewSetUp()\l- titleStyle()\l- profileLabel()\l- buttons()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1GameView.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{main.presentation.views.\lInitialView\n|- username\l- cc\l- title\l|+ InitialView()\l- initialise()\l- viewSetUp()\l- profileLabel()\l- titleStyle()\l- buttons()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1InitialView.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{main.presentation.views.\lKenkenView\n|- username\l- cc\l- N\l- regiones\l- board\l- boardSol\l- isSolution\l- cells\l- cellsSol\l- layeredPanes\land 6 more...\l|+ KenkenView()\l+ isBiggerThanN()\l+ isLowerThan0()\l+ createGamePanel()\l+ addOperatorLabels()\l- initialise()\l- viewSetUp()\l- toggleSolution()\l- updateBoard()\l- getOperatorSymbol()\l- printBoard()\l- leavePopUp()\l- parseKenKen()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1KenkenView.html",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{main.presentation.views.\lManageProfileView\n|- username\l- cc\l|+ ManageProfileView()\l- initialise()\l- viewSetUp()\l- titleStyle()\l- profileLabel()\l- buttons()\l- closePopUp()\l- deleteProfilePopUp()\l- logOutPopUp()\l- removeLastGamePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ManageProfileView.html",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{main.presentation.views.\lProfileView\n|- cc\l- title\l- subtitle\l|+ ProfileView()\l- initialise()\l- viewSetUp()\l- titleStyle()\l- buttons()\l- logInPopUp()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ProfileView.html",tooltip=" "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{main.presentation.views.\lSolValidatorView\n|- username\l- cc\l|+ SolValidatorView()\l- initialise()\l- viewSetUp()\l- buttons()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1SolValidatorView.html",tooltip=" "];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{main.presentation.views.\lValidatorView\n|- username\l- cc\l- title\l- filePath\l|+ ValidatorView()\l- initialise()\l- viewSetUp()\l- buttons()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1presentation_1_1views_1_1ValidatorView.html",tooltip=" "];
+}

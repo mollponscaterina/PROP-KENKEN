@@ -1,0 +1,10 @@
+digraph "main.presentation.views.KenkenView"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{main.presentation.views.\lKenkenView\n|- username\l- cc\l- N\l- regiones\l- board\l- boardSol\l- isSolution\l- cells\l- cellsSol\l- layeredPanes\land 6 more...\l|+ KenkenView()\l+ isBiggerThanN()\l+ isLowerThan0()\l+ createGamePanel()\l+ addOperatorLabels()\l- initialise()\l- viewSetUp()\l- toggleSolution()\l- updateBoard()\l- getOperatorSymbol()\l- printBoard()\l- leavePopUp()\l- parseKenKen()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{JFrame\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classJFrame.html",tooltip=" "];
+}

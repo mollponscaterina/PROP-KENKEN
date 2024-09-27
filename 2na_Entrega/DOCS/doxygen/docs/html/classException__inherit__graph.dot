@@ -1,0 +1,26 @@
+digraph "Exception"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Exception\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{main.exceptions.BoardImpossible\n||+ getTipusExcepcio()\l+ BoardImpossible()\l+ BoardImpossible()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1BoardImpossible.html",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{main.exceptions.Instance\lExceptions\n||+ InstanceExceptions()\l+ InstanceExceptions()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1InstanceExceptions.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{main.exceptions.Instance\lNotExists\n||+ getTipusExcepcio()\l+ InstanceNotExists()\l+ InstanceNotExists()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1InstanceNotExists.html",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{main.exceptions.PlayerExceptions\n||+ getTipusExcepcio()\l+ PlayerExceptions()\l+ PlayerExceptions()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerExceptions.html",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{main.exceptions.NotExists\lAnyPlayer\n||+ getTipusExcepcio()\l+ NotExistsAnyPlayer()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1NotExistsAnyPlayer.html",tooltip=" "];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{main.exceptions.NotExists\lSavedGames\n||+ getTipusExcepcio()\l+ NotExistsSavedGames()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1NotExistsSavedGames.html",tooltip=" "];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{main.exceptions.PlayerAlready\lExists\n||+ getTipusExcepcio()\l+ PlayerAlreadyExists()\l+ PlayerAlreadyExists()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerAlreadyExists.html",tooltip=" "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{main.exceptions.PlayerNot\lExists\n||+ getTipusExcepcio()\l+ PlayerNotExists()\l+ PlayerNotExists()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerNotExists.html",tooltip=" "];
+  Node5 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{main.exceptions.PlayerNot\lRegistered\n||+ getTipusExcepcio()\l+ PlayerNotRegistered()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerNotRegistered.html",tooltip=" "];
+}

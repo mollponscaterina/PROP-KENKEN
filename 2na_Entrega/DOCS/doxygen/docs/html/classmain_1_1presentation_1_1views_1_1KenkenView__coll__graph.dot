@@ -1,0 +1,26 @@
+digraph "main.presentation.views.KenkenView"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{main.presentation.views.\lKenkenView\n||+ KenkenView()\l+ isBiggerThanN()\l+ isLowerThan0()\l+ createGamePanel()\l+ addOperatorLabels()\l- initialise()\l- viewSetUp()\l- toggleSolution()\l- updateBoard()\l- getOperatorSymbol()\l- printBoard()\l- leavePopUp()\l- parseKenKen()\l- closePopUp()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{JFrame\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classJFrame.html",tooltip=" "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -regiones" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{List\< main.domain.classes.\lRegion \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -username\n-actualKenken" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{String\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -boardSol\n-board\n-N" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{int\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -cells\n-cellsSol" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{JTextField[][]\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -layeredPanes" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{JLayeredPane[][]\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -cc" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{Component\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -solution\n-hint\n-validate\n-leave\n-reset" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{JButton\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -isSolution" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{boolean\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

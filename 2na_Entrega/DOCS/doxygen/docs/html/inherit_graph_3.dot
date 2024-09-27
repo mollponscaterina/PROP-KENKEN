@@ -1,0 +1,27 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Exception",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classException.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="main.exceptions.BoardImpossible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1BoardImpossible.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.exceptions.Instance\lExceptions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1InstanceExceptions.html",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.exceptions.Instance\lNotExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1InstanceNotExists.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main.exceptions.PlayerExceptions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerExceptions.html",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="main.exceptions.NotExists\lAnyPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1NotExistsAnyPlayer.html",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main.exceptions.NotExists\lSavedGames",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1NotExistsSavedGames.html",tooltip=" "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="main.exceptions.PlayerAlready\lExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerAlreadyExists.html",tooltip=" "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="main.exceptions.PlayerNot\lExists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerNotExists.html",tooltip=" "];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="main.exceptions.PlayerNot\lRegistered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1exceptions_1_1PlayerNotRegistered.html",tooltip=" "];
+}

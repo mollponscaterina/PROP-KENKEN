@@ -1,0 +1,13 @@
+digraph "main.domain.controllers.CtrlDomain.savePlayers"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="main.domain.controllers.\lCtrlDomain.savePlayers",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.persistence.controllers.\lCtrlPersistence.saveDataPlayers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1persistence_1_1controllers_1_1CtrlPersistence.html#aa2c0b3d30eba733fa69b25ec6e47f1c6",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.persistence.classes.\lPlayerManagement.saveData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1persistence_1_1classes_1_1PlayerManagement.html#a506e48033fb4df1e601a969f3c3869a5",tooltip=" "];
+}

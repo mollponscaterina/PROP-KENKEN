@@ -1,0 +1,23 @@
+digraph "main.domain.classes.Ranking.getScore"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="main.domain.classes.Ranking.get\lScore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.domain.classes.Player.show\lStatistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1classes_1_1Player.html#a0e5040de383e1c983875f5496f9617f3",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="main.domain.controllers.\lCtrlPlayer.statistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1controllers_1_1CtrlPlayer.html#aaf89b24bdfe861eaa4dcdf3d53479063",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main.domain.controllers.\lCtrlDomain.showStatistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1domain_1_1controllers_1_1CtrlDomain.html#a67f44da5f808cd0a070c0352987b5b13",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="drivers.DriverPersistence.main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdrivers_1_1DriverPersistence.html#a478fdb9b002d4166befdd1efce6a1179",tooltip=" "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="drivers.DriverPlayer.main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdrivers_1_1DriverPlayer.html#aef6d95b10db9f365b1ba84c74210b861",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="test.PlayerTest.testShow\lStatistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtest_1_1PlayerTest.html#a3c2d7d784cc258a45a4adda901e1f38a",tooltip=" "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="test.RankingTest.testAdd\lScore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtest_1_1RankingTest.html#ad72bc87f72fe7e80c7472d1108ab493d",tooltip=" "];
+}
